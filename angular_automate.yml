@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: angular-helloworld
-        image: shanudua/angular-app:latest   # Flux will auto-update this
+        image: shanudua/angular-app:latest   # @set: image=shanudua/angular-app:latest
         ports:
         - containerPort: 80
 

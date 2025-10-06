@@ -5,7 +5,9 @@ metadata:
   namespace: default
   annotations:
     # Flux will manage this container image using the ImagePolicy
-    image.fluxcd.io/container.angular-helloworld: angular-app-policy
+   # image.fluxcd.io/container.angular-helloworld: angular-app-policy
+     image.toolkit.fluxcd.io/update: angular-app-policy
+
 spec:
   replicas: 2
   selector:
